@@ -1,0 +1,207 @@
+/* General Dashboard Styles */
+.dashboard-container {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fdf5e6;
+    /* Tiger-skin-inspired light background */
+    border: 2px solid #d2691e;
+    /* Tiger-skin-inspired border */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-title {
+    text-align: center;
+    font-size: 24px;
+    color: #8b4513;
+    margin-bottom: 20px;
+    font-family: Arial, sans-serif;
+}
+
+/* Service Selection */
+.service-selection {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.service-selection label {
+    margin: 0 10px;
+    font-size: 16px;
+    color: #8b4513;
+    cursor: pointer;
+}
+
+.service-selection input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Weekday Selector */
+.weekday-selector {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.weekday {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 13%;
+}
+
+.weekday-checkbox {
+    font-size: 14px;
+    color: #8b4513;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+.working-hours-dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.working-hours-dropdown label {
+    font-size: 14px;
+    color: #8b4513;
+    margin-bottom: 5px;
+}
+
+.working-hours-dropdown select {
+    padding: 5px;
+    border: 1px solid #d2691e;
+    border-radius: 5px;
+    background-color: #fffaf0;
+    /* Light cream */
+    font-size: 14px;
+    color: #8b4513;
+}
+
+/* Calendar */
+.calendar-container {
+    margin-bottom: 20px;
+}
+
+.calendar {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.calendar-day {
+    width: 13%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.calendar-day.working {
+    background-color: #32cd32;
+    /* Green for working days */
+}
+
+.calendar-day.non-working {
+    background-color: #d3d3d3;
+    /* Gray for non-working days */
+}
+
+.calendar-day.exception {
+    background-color: #ff6347;
+    /* Red for exceptions */
+}
+
+/* Exceptions Manager */
+.exceptions-manager {
+    margin-top: 20px;
+}
+
+.exception-management h2 {
+    font-size: 20px;
+    color: #8b4513;
+    margin-bottom: 10px;
+}
+
+.exception-input {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.exception-input input[type="date"] {
+    padding: 5px;
+    border: 1px solid #d2691e;
+    border-radius: 5px;
+    background-color: #fffaf0;
+    font-size: 14px;
+    color: #8b4513;
+    margin-right: 10px;
+}
+
+.exception-input button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d2691e;
+    color: #000000;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.exception-input button:hover {
+    background-color: #a0522d;
+}
+
+.exceptions-list h3 {
+    font-size: 16px;
+    color: #8b4513;
+    margin-bottom: 10px;
+}
+
+.exceptions-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.exceptions-list li {
+    font-size: 14px;
+    color: #8b4513;
+    margin-bottom: 5px;
+}
+
+/* Edit/Save Buttons */
+.edit-save-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.edit-save-buttons button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d2691e;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.edit-save-buttons button:hover {
+    background-color: #a0522d;
+}
+
+.working-days-manager {
+    color: #000000
+}
+
+.exceptions-manager {
+    color: #000000;
+}

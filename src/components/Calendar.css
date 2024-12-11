@@ -1,0 +1,36 @@
+/* Default styles for the calendar */
+.react-calendar {
+    width: 100%;
+    max-width: 500px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    line-height: 1.125em;
+}
+
+.react-calendar__tile {
+    text-align: center;
+    padding: 0.5em;
+    border-radius: 50%;
+}
+
+/* Highlight working days */
+.working-day-tile {
+    background-color: #d4edda;
+    color: #155724;
+    font-weight: bold;
+}
+
+/* Highlight exception days */
+.exception-tile {
+    background-color: #f8d7da;
+    color: #721c24;
+    font-weight: bold;
+}
+
+/* Non-working days */
+.non-working-day-tile {
+    background-color: #e2e3e5;
+    color: #6c757d;
+}
